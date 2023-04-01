@@ -23,7 +23,7 @@ Data types are divided into 2 main types primitive (basic data types) and non-pr
 >   - [String](https://github.com/Vishal-S-J/BASIC-JAVA/blob/main/Part-1-Data-Types/Non-Primitive/src/main/java/com/sample/String_Type.java)
 >   - Classes
 >   - Interface
-## PART-2 (Loops)
+## PART-2 (Loops and Cases)
 ## PART-3 (KEYWORDS)
 ## PART-4 (OOP's concept)
 ## PART-5 (Collections)

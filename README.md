@@ -2,6 +2,7 @@
 Simple java with basics
 
 ## PART-1 (Data Types)
-## PART-2 (KEYWORDS)
-## PART-3 (OOP's concept)
-## PART-4 (Collections)
+## PART-2 (Loops)
+## PART-3 (KEYWORDS)
+## PART-4 (OOP's concept)
+## PART-5 (Collections)

@@ -5,19 +5,19 @@ Simple java with basics
 Data types are divided into 2 main types primitive (basic data types) and non-primitive (derived data types) data type
 > - Primitive Data Type
 >   - Boolean Data Type
->     - boolean
+>     - [boolean](https://github.com/Vishal-S-J/BASIC-JAVA/blob/main/Part-1-Data-Types/Primitive/src/main/java/com/sample/Boolean_Type.java)
 >   - Numeric Data Type
 >     - Character Data Type
->       - char
+>       - [char](https://github.com/Vishal-S-J/BASIC-JAVA/blob/main/Part-1-Data-Types/Primitive/src/main/java/com/sample/Char_Type.java)
 >     - Integral Data Type
 >       - Integer Data Type
->         - byte
->         - short
->         - int
->         - long
+>         - [byte](https://github.com/Vishal-S-J/BASIC-JAVA/blob/main/Part-1-Data-Types/Primitive/src/main/java/com/sample/Byte_Type.java)
+>         - [short](https://github.com/Vishal-S-J/BASIC-JAVA/blob/main/Part-1-Data-Types/Primitive/src/main/java/com/sample/Short_Type.java)
+>         - [int](https://github.com/Vishal-S-J/BASIC-JAVA/blob/main/Part-1-Data-Types/Primitive/src/main/java/com/sample/Int_Type.java)
+>         - [long](https://github.com/Vishal-S-J/BASIC-JAVA/blob/main/Part-1-Data-Types/Primitive/src/main/java/com/sample/Long_Type.java)
 >       - Floating Data Type
->         - float
->         - double
+>         - [float](https://github.com/Vishal-S-J/BASIC-JAVA/blob/main/Part-1-Data-Types/Primitive/src/main/java/com/sample/Float_Type.java)
+>         - [double](https://github.com/Vishal-S-J/BASIC-JAVA/blob/main/Part-1-Data-Types/Primitive/src/main/java/com/sample/Double_Type.java)
 ## PART-2 (Loops)
 ## PART-3 (KEYWORDS)
 ## PART-4 (OOP's concept)

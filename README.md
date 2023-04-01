@@ -19,8 +19,8 @@ Data types are divided into 2 main types primitive (basic data types) and non-pr
 >         - [float](https://github.com/Vishal-S-J/BASIC-JAVA/blob/main/Part-1-Data-Types/Primitive/src/main/java/com/sample/Float_Type.java)
 >         - [double](https://github.com/Vishal-S-J/BASIC-JAVA/blob/main/Part-1-Data-Types/Primitive/src/main/java/com/sample/Double_Type.java)
 > - Non Primitive Data Type
->   - Arrays
->   - String
+>   - [Arrays](https://github.com/Vishal-S-J/BASIC-JAVA/blob/main/Part-1-Data-Types/Non-Primitive/src/main/java/com/sample/Array_Type.java)
+>   - [String](https://github.com/Vishal-S-J/BASIC-JAVA/blob/main/Part-1-Data-Types/Non-Primitive/src/main/java/com/sample/String_Type.java)
 >   - Classes
 >   - Interface
 ## PART-2 (Loops)

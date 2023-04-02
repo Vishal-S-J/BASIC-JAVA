@@ -25,6 +25,7 @@ Data types are divided into 2 main types primitive (basic data types) and non-pr
 >   - Interface
 ## PART-2 (Loops and Cases)
 Loop - when you want to write 1000 same lines in java use loops.
+
 Cases - if you want to check conditions and process it then use the cases
 > - cases
 >   - [if statement](https://github.com/Vishal-S-J/BASIC-JAVA/blob/main/Part-2-Loops-Cases/Cases/src/main/java/com/sample/IF_Case_Simple.java)

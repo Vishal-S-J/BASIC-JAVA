@@ -24,6 +24,17 @@ Data types are divided into 2 main types primitive (basic data types) and non-pr
 >   - Classes
 >   - Interface
 ## PART-2 (Loops and Cases)
+> - cases
+>   - [if statement](https://github.com/Vishal-S-J/BASIC-JAVA/blob/main/Part-2-Loops-Cases/Cases/src/main/java/com/sample/IF_Case_Simple.java)
+>   - [if - else](https://github.com/Vishal-S-J/BASIC-JAVA/blob/main/Part-2-Loops-Cases/Cases/src/main/java/com/sample/IF_Else_Case.java)
+>   - [if - else if - else](https://github.com/Vishal-S-J/BASIC-JAVA/blob/main/Part-2-Loops-Cases/Cases/src/main/java/com/sample/IF_Else_IF_Case.java)
+>   - [if ( if else ) else ( if - else )](https://github.com/Vishal-S-J/BASIC-JAVA/blob/main/Part-2-Loops-Cases/Cases/src/main/java/com/sample/IF_Else_Nested_Case.java)
+>   - [switch](https://github.com/Vishal-S-J/BASIC-JAVA/blob/main/Part-2-Loops-Cases/Cases/src/main/java/com/sample/Switch_Case.java)
+> - loop
+>   - [simple for loop](https://github.com/Vishal-S-J/BASIC-JAVA/blob/main/Part-2-Loops-Cases/Loops/src/main/java/com/sample/For_Loop.java)
+>   - [enhance for loop](https://github.com/Vishal-S-J/BASIC-JAVA/blob/main/Part-2-Loops-Cases/Loops/src/main/java/com/sample/For_Loop_Enhanced.java)
+>   - [while loop](https://github.com/Vishal-S-J/BASIC-JAVA/blob/main/Part-2-Loops-Cases/Loops/src/main/java/com/sample/While_Loop.java)
+>   - [do while loop](https://github.com/Vishal-S-J/BASIC-JAVA/blob/main/Part-2-Loops-Cases/Loops/src/main/java/com/sample/Do_While_Loop.java)
 ## PART-3 (KEYWORDS)
 ## PART-4 (OOP's concept)
 ## PART-5 (Collections)

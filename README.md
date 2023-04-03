@@ -88,5 +88,8 @@ access_modifier return_type method_name(params) {
   code to execute
 }
 ```
+___
+2. [static, this, final, super]
+___
 ## PART-4 (OOP's concept)
 ## PART-5 (Collections)

@@ -43,15 +43,18 @@ There are many main keyword which are used in simple java codes on daily basis.
 ___
 1. [class, object, constructor, method]  [code](code)
 ___
-Everything in Java is associated with classes and objects, along with its attributes and methods. For example: in real life, a person is an object. The person has attributes, such as weight and height, and methods, such as run and drive. A Class is like an object constructor, or a "blueprint" for creating objects.
-Consider a class person each person has a name, date of birth, quailification, age, etc. Now consider me as a Creator of my world and I wanted a new person so I created an object using a new keyword. Java always provides us with default constructor with no parameter if we create a new constructor it gets override so we need to create both default and parameterized constructor. Methods also have same properties as constuctor but the constuctor has same method name as the class name and method can return values where as constuctor can not. Method can be called using `object_name.method_name` depending on access modifiers it can be used any where.
+CLASS
 
+Everything in Java is associated with classes and objects, along with its attributes and methods. For example: in real life, a person is an object. The person has attributes, such as weight and height, and methods, such as run and drive. A Class is like an object constructor, or a "blueprint" for creating objects.Consider a class person each person has a name, date of birth, quailification, age, etc.
 * Syntax (Creating a class)
 ```
 access_modifier class class_name {
     objects, variables, methods, constuctor
 }
 ```
+OBJECT
+
+Now consider me as a Creator of my world and I wanted a new person so I created an object using a new keyword. Java always provides us with default constructor with no parameter if we create a new constructor it gets override so we need to create both default and parameterized constructor. Methods also have same properties as constuctor but the constuctor has same method name as the class name and method can return values where as constuctor can not. Method can be called using `object_name.method_name` depending on access modifiers it can be used any where.
 * Syntax (Creating a object)
 ```
 class_name object_name = new class_name();

@@ -54,10 +54,14 @@ access_modifier class class_name {
 ```
 OBJECT
 
-Now consider me as a Creator of my world and I wanted a new person so I created an object using a new keyword. Java always provides us with default constructor with no parameter if we create a new constructor it gets override so we need to create both default and parameterized constructor. Methods also have same properties as constuctor but the constuctor has same method name as the class name and method can return values where as constuctor can not. Method can be called using `object_name.method_name` depending on access modifiers it can be used any where.
+Now consider me as a Creator of my world and I wanted a new person so I created an object using a new keyword.
 * Syntax (Creating a object)
 ```
 class_name object_name = new class_name();
+
+CONSTRUCTOR
+
+Java always provides us with default constructor with no parameter if we create a new constructor with params it gets override so we need to create both default and parameterized constructor. Constructor has the same name as class name. Constructor does not return any value. 
 ```
 * Syntax (Creating a constructor)
 ```
@@ -70,6 +74,10 @@ OR
 class_name(parameters) {
   code
 }
+
+METHOD
+
+Methods also have same properties as constuctor but the constuctor has same method name as the class name and method can return values where as constuctor can not. Method can be called using `object_name.method_name` depending on access modifiers it can be used any where.
 ```
 * Syntax (Creating a method)
 ```

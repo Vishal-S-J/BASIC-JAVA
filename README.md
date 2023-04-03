@@ -77,7 +77,7 @@ class_name(parameters) {
 ```
 METHOD
 
-Methods also have same properties as constuctor but the constuctor has same method name as the class name and method can return values where as constuctor can not. Method can be called using `object_name.method_name` depending on access modifiers it can be used any where.
+Methods also have same properties as constuctor but the constuctor can have any name other than class name and method can return values. Method can be called using `object_name.method_name` depending on access modifiers it can be used any where.
 * Syntax (Creating a method)
 ```
 access_modifier return_type method_name(params) {

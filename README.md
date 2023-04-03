@@ -91,5 +91,17 @@ access_modifier return_type method_name(params) {
 ___
 2. [static, this, final, super]
 ___
+
+___
+3. Access modifiers
+___
+
+___
+4. try catch - [final, finally finalize, throws, throws]
+___
+
+___
+5. inner class
+___
 ## PART-4 (OOP's concept)
 ## PART-5 (Collections)

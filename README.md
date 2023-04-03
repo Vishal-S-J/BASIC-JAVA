@@ -41,8 +41,12 @@ Cases - if you want to check conditions and process it then use the cases
 ## PART-3 (KEYWORDS)
 There are many main keyword which are used in simple java codes on daily basis.
 ___
-1. [class, object, constructor, method]  [code](code)
+1. [interface, class, object, constructor, method]  [code](code)
 ___
+INTERFACE
+
+exp
+
 CLASS
 
 Everything in Java is associated with classes and objects, along with its attributes and methods. For example: in real life, a person is an object. The person has attributes, such as weight and height, and methods, such as run and drive. A Class is like an object constructor, or a "blueprint" for creating objects.Consider a class person each person has a name, date of birth, quailification, age, etc.

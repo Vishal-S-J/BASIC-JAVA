@@ -45,7 +45,23 @@ ___
 ___
 INTERFACE
 
-exp
+- An interface in Java is a blueprint of a class. It has static constants and abstract methods.
+- The interface in Java is a mechanism to achieve abstraction. There can be only abstract methods in the Java interface, not method body. It is used to achieve abstraction and multiple inheritance in Java.
+- In other words, you can say that interfaces can have abstract methods and variables. It cannot have a method body.
+- Java Interface also represents the IS-A relationship
+- Why use Java interface?
+    - It is used to achieve abstraction.
+    - By interface, we can support the functionality of multiple inheritance.
+    - It can be used to achieve loose coupling.
+- ex. Person is an interface and Student, Professor, Workers these are all classes. then student "is a" person same on worker "is a" person.
+* Syntax (Creating an interface)
+```
+interface <interface_name>{
+    // declare constant fields
+    // declare methods that abstract
+    // by default.
+}
+```
 
 CLASS
 

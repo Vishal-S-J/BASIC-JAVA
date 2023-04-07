@@ -105,7 +105,7 @@ access_modifier return_type method_name(params) {
 }
 ```
 ___
-2. [static, this, final, super]
+2. [static, abstract, this, final, super]
 ___
 
 ___

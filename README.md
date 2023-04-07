@@ -113,10 +113,14 @@ STATIC
 The static keyword in Java is used for memory management mainly. We can apply static keyword with variables, methods, blocks and nested classes. The static keyword belongs to the class than an instance of the class.Static can be used with variable, methods, block and nested class
 * Syntax (static keyword)
 ```
-static int counts = 0;
+static int counts = 0;    // for variable
 
-static void met1() {
+static void met1() {      // for methods
     //code to execute
+}
+
+static {                  // for static block
+    // code within static
 }
 ```
 ___

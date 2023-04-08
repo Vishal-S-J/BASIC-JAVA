@@ -79,7 +79,6 @@ Now consider me as a Creator of my world and I wanted a new person so I created 
 ```
 class_name object_name = new class_name();
 ```
-
 CONSTRUCTOR
 
 Java always provides us with default constructor with no parameter if we create a new constructor with params it gets override so we need to create both default and parameterized constructor. Constructor has the same name as class name. Constructor does not return any value. 
@@ -107,7 +106,6 @@ access_modifier return_type method_name(params) {
 ___
 2. [static, abstract, this, final, super]
 ___
-
 STATIC
 
 The `static` keyword in Java is used for memory management mainly. We can apply static keyword with variables, methods, blocks and nested classes. The static keyword belongs to the class than an instance of the class.Static can be used with variable, methods, block and nested class

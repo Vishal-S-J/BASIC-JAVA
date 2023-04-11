@@ -40,6 +40,7 @@ Cases - if you want to check conditions and process it then use the cases
 >   - [do while loop](https://github.com/Vishal-S-J/BASIC-JAVA/blob/main/Part-2-Loops-Cases/Loops/src/main/java/com/sample/Do_While_Loop.java)
 ## PART-3 (KEYWORDS)
 There are many main keyword which are used in simple java codes on daily basis.
+> [abstract, boolean, break, byte, case, catch, char, class, continue, default, do, double, else, enum, extends, final, finally, float, for, if, implements, import, instanceof, int, interface, long, new, package, private, protected, public, return, short, static, super, switch, this, throw, throws, try, void, while]
 ___
 1. [interface, class, object, constructor, method]  [code](code)
 ___

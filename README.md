@@ -136,7 +136,7 @@ There are four types of Java access modifiers:
 > |Protected|Y|Y|Y|N|
 > |Public|Y|Y|Y|Y|
 ___
-4. try catch - [final, finally finalize, throws, throws]
+4. Exception Handling - [final, finally finalize, throws, throws]
 ___
 
 ___

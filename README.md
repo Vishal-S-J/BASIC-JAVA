@@ -138,7 +138,13 @@ There are four types of Java access modifiers:
 ___
 4. Exception Handling - [final, finally finalize, throws, throws]
 ___
+The Exception Handling in Java is one of the powerful mechanism to handle the runtime errors so that the normal flow of the application can be maintained.
+In this part, we will learn about Java exceptions, it's types, and the difference between checked and unchecked exceptions.
 
+General : I Java, an exception is an event that disrupts the normal flow of the program.
+It is an object which is thrown at runtime.
+
+Hierarchy of Java Exception classes
 ```bash
 └──Throwable
     ├──Error
@@ -157,7 +163,20 @@ ___
                 ├──ArrayIndexOutOfBoundsException
                 └──StringIndexOutOfBoundsException
 ```
-
+Types
+There are mainly two types of exceptions: checked and unchecked.
+An error is considered as the unchecked exception. However, according to Oracle, there are three types of exceptions namely:
+1. Checked Exception -
+The classes that directly inherit the Throwable class except RuntimeException and Error are known as checked exceptions.
+For example, IOException, SQLException, etc.
+Checked exceptions are checked at compile-time.
+2. Unchecked Exception -
+The classes that inherit the RuntimeException are known as unchecked exceptions.
+For example, ArithmeticException, NullPointerException, ArrayIndexOutOfBoundsException, etc.
+Unchecked exceptions are not checked at compile-time, but they are checked at runtime.
+3. Error -
+Error is irrecoverable.
+Some example of errors are OutOfMemoryError, VirtualMachineError, AssertionError etc.
 ___
 5. inner class
 ___

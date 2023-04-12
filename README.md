@@ -141,7 +141,7 @@ ___
 The Exception Handling in Java is one of the powerful mechanism to handle the runtime errors so that the normal flow of the application can be maintained.
 In this part, we will learn about Java exceptions, it's types, and the difference between checked and unchecked exceptions.
 
-General : I Java, an exception is an event that disrupts the normal flow of the program.
+General : In Java, an exception is an event that disrupts the normal flow of the program.
 It is an object which is thrown at runtime.
 
 Hierarchy of Java Exception classes
@@ -152,16 +152,16 @@ Hierarchy of Java Exception classes
     │   ├──VirtualMachineError
     │   └──OutOfMemoryError
     └──Exception
-        ├──IOException
-        ├──SQLException
-        ├──ClassNotFoundException
-        └──RuntimeException
-            ├──ArithmaticException
-            ├──NullPointerException
-            ├──NumberFormatException
-            └──IndexOutOfBoundException
-                ├──ArrayIndexOutOfBoundsException
-                └──StringIndexOutOfBoundsException
+         ├──IOException
+         ├──SQLException
+         ├──ClassNotFoundException
+         └──RuntimeException
+              ├──ArithmaticException
+              ├──NullPointerException
+              ├──NumberFormatException
+              └──IndexOutOfBoundException
+                   ├──ArrayIndexOutOfBoundsException
+                   └──StringIndexOutOfBoundsException
 ```
 Types
 There are mainly two types of exceptions: checked and unchecked.

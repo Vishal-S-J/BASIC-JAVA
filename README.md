@@ -125,7 +125,16 @@ static {                  // for static block
 ___
 3. Access modifiers
 ___
+The access modifiers in Java specifies the accessibility or scope of a field, method, constructor, or class. We can change the access level of fields, constructors, methods, and class by applying the access modifier on it.
+There are four types of Java access modifiers:
+> [public, private, protected, default]
 
+> |Access Modifier|Within Class|Within Package|Outside package by subclass only|outside package|
+> |:-------------:|:----------:|:------------:|:------------------------------:|:-------------:|
+> |Private|Y|N|N|N|
+> |Default|Y|Y|N|N|
+> |Protected|Y|Y|Y|N|
+> |Public|Y|Y|Y|Y|
 ___
 4. try catch - [final, finally finalize, throws, throws]
 ___

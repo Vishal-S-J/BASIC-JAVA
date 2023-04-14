@@ -178,7 +178,12 @@ Unchecked exceptions are not checked at compile-time, but they are checked at ru
 Error is irrecoverable.
 Some example of errors are OutOfMemoryError, VirtualMachineError, AssertionError etc.
 ___
-5. inner class
+5. Remaining keywords
 ___
 ## PART-4 (OOP's concept)
+
+1. Inheritance
+2. Abstraction
+3. Encapsulation
+4. Polymorphism
 ## PART-5 (Collections)

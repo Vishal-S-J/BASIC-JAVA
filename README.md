@@ -118,7 +118,10 @@ ___
 ___
 STATIC
 
-The `static` keyword in Java is used for memory management mainly. We can apply static keyword with variables, methods, blocks and nested classes. The static keyword belongs to the class than an instance of the class.Static can be used with variable, methods, block and nested class
+- The `static` keyword in Java is used for memory management mainly. 
+- We can apply static keyword with variables, methods, blocks and nested classes. 
+- The static keyword belongs to the class than an instance of the class.
+- Static can be used with variable, methods, block and nested class.
 * Syntax (static keyword)
 ```
 static int counts = 0;    // for variable
@@ -131,11 +134,25 @@ static {                  // for static block
     // code within static
 }
 ```
+
+ABSTRACT 
+
+- The abstract keyword is a non-access modifier, used for classes and methods.
+- Class: An abstract class is a restricted class that cannot be used to create objects (to access it, it must be inherited from another class).
+- Method: An abstract method can only be used in an abstract class, and it does not have a body. The body is provided by the subclass (inherited from).
+- Note - We cannot declare abstract methods in non abstract class.
+* Syntax (abstract keyword)
+```
+abstract class class_name {  
+    abstract return_type method_name();
+}   
+```
 ___
 3. Access modifiers
 ___
-The access modifiers in Java specifies the accessibility or scope of a field, method, constructor, or class. We can change the access level of fields, constructors, methods, and class by applying the access modifier on it.
-There are four types of Java access modifiers:
+- The access modifiers in Java specifies the accessibility or scope of a field, method, constructor, or class. 
+- We can change the access level of fields, constructors, methods, and class by applying the access modifier on it.
+- There are four types of Java access modifiers:
 > [public, private, protected, default]
 
 > |Access Modifier|Within Class|Within Package|Outside package by subclass only|outside package|
@@ -147,8 +164,8 @@ There are four types of Java access modifiers:
 ___
 4. Exception Handling - [final, finally finalize, throws, throws]
 ___
-The Exception Handling in Java is one of the powerful mechanism to handle the runtime errors so that the normal flow of the application can be maintained.
-In this part, we will learn about Java exceptions, it's types, and the difference between checked and unchecked exceptions.
+- The Exception Handling in Java is one of the powerful mechanism to handle the runtime errors so that the normal flow of the application can be maintained.
+- In this part, we will learn about Java exceptions, it's types, and the difference between checked and unchecked exceptions.
 
 General : In Java, an exception is an event that disrupts the normal flow of the program.
 It is an object which is thrown at runtime.

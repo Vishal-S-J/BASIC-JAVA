@@ -177,6 +177,15 @@ Unchecked exceptions are not checked at compile-time, but they are checked at ru
 3. Error -
 Error is irrecoverable.
 Some example of errors are OutOfMemoryError, VirtualMachineError, AssertionError etc.
+
+DIFFERENCE BETWEEN THROW AND THROWS
+> Point | throw | throws |
+> |:-----:|:-----:|:------:
+> |Definition|Java throw keyword is used throw an exception explicitly in the code, inside the function or the block of code.|Java throws keyword is used in the method signature to declare an exception which might be thrown by the function while the execution of the code.|
+> |When to use|Type of exception Using throw keyword, we can only propagate unchecked exception i.e., the checked exception cannot be propagated using throw only.|Using throws keyword, we can declare both checked and unchecked exceptions. However, the throws keyword can be used to propagate checked exceptions only.|
+> |Syntax|The throw keyword is followed by an instance of Exception to be thrown.|The throws keyword is followed by class names of Exceptions to be thrown.|
+> |Declaration|throw is used within the method.|throws is used with the method signature.|
+> |Internal Implementation|We are allowed to throw only one exception at a time i.e. we cannot throw multiple exceptions.|We can declare multiple exceptions using throws keyword that can be thrown by the method. For example, main() throws IOException, SQLException.|
 ___
 5. Remaining keywords
 ___

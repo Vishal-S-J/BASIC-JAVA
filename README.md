@@ -270,6 +270,15 @@ DIFFERENCE BETWEEN FINAL, FINALLY, FINALIZE
 ___
 5. Remaining keywords
 ___
+
+> [enum, extends, finalize, implements, import, instanceof, new, package, return, void.]
+
+
+ENUM
+
+
+
+
 ## PART-4 (OOP's concept)
 
 1. Inheritance

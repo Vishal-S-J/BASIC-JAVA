@@ -170,8 +170,29 @@ FINAL
 - The final keyword can be applied with the variables, a final variable that have no value it is called blank final variable or uninitialized final variable. 
 - It can be initialized in the constructor only. 
 - The blank final variable can be static also which will be initialized in the static block only. 
-- We will have detailed learning of thesein codes.
+- We will have detailed learning of these in codes.
+* Syntax
+```
+final int PI = 3.142  //for variable
 
+final void method_name() {  // for method (cannot override)
+    //code
+}
+
+final class class_name {    // for class (cannot extend)
+    //code
+}
+```
+
+SUPER
+
+- The super keyword in Java is a reference variable which is used to refer immediate parent class object.
+- Whenever you create the instance of subclass, an instance of parent class is created implicitly which is referred by super reference variable.
+- Usage of Java super Keyword
+     - super can be used to refer immediate parent class instance variable.
+     - super can be used to invoke immediate parent class method.
+     - super() can be used to invoke immediate parent class constructor.
+- Note: super() is added in each class constructor automatically by compiler if there is no super() or this().
 
 ___
 3. Access modifiers

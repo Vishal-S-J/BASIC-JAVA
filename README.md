@@ -66,7 +66,11 @@ interface <interface_name>{
 
 CLASS
 
-Everything in Java is associated with classes and objects, along with its attributes and methods. For example: in real life, a person is an object. The person has attributes, such as weight and height, and methods, such as run and drive. A Class is like an object constructor, or a "blueprint" for creating objects.Consider a class person each person has a name, date of birth, quailification, age, etc.
+- Everything in Java is associated with classes and objects, along with its attributes and methods. 
+- For example: in real life, a person is an object.
+- The person has attributes, such as weight and height, and methods, such as run and drive. 
+- A Class is like an object constructor, or a "blueprint" for creating objects.
+- Consider a class person each person has a name, date of birth, quailification, age, etc.
 * Syntax (Creating a class)
 ```
 access_modifier class class_name {
@@ -75,14 +79,18 @@ access_modifier class class_name {
 ```
 OBJECT
 
-Now consider me as a Creator of my world and I wanted a new person so I created an object using a new keyword.
+- Now consider me as a Creator of my world and I wanted a new person so I created an object using a new keyword.
+- new class_name() this is called as new object and
+- class_name object_name this is called as reference variable.
 * Syntax (Creating a object)
 ```
 class_name object_name = new class_name();
 ```
 CONSTRUCTOR
 
-Java always provides us with default constructor with no parameter if we create a new constructor with params it gets override so we need to create both default and parameterized constructor. Constructor has the same name as class name. Constructor does not return any value. 
+- Java always provides us with default constructor with no parameter if we create a new constructor with params it gets override so we need to create both default and parameterized constructor. 
+- Constructor has the same name as class name. 
+- Constructor does not return any value. 
 * Syntax (Creating a constructor)
 ```
 class_name() {
@@ -97,7 +105,8 @@ class_name(parameters) {
 ```
 METHOD
 
-Methods also have same properties as constuctor but the constuctor can have any name other than class name and method can return values. Method can be called using `object_name.method_name` depending on access modifiers it can be used any where.
+- Methods also have same properties as constuctor but the constuctor can have any name other than class name and method can return values. 
+- Method can be called using `object_name.method_name` depending on access modifiers it can be used any where.
 * Syntax (Creating a method)
 ```
 access_modifier return_type method_name(params) {

@@ -334,11 +334,38 @@ public class child_class extends parent_class {
 ```
 
 IMPORT
+
+- The import keyword is used to import a package, class or interface.
+
 INSTANCEOF
+
+- The instanceof keyword checks whether an object is an instance of a specific class or an interface.
+- The instanceof keyword compares the instance with type. 
+- The return value is either true or false.
+```
+public class Main {
+  public static void main(String[] args) {
+    Main myObj = new Main();
+    System.out.println(myObj instanceof Main); // returns true
+  }
+}
+```
 NEW
+
+- The new keyword creates new objects.
+- Main myObj = new Main();
+
 PACKAGE
+
+- The package keyword creates a package.
+
 RETURN
+
+- The return keyword finished the execution of a method, and can be used to return a value from a method.
+
 VOID
+
+- The void keyword specifies that a method should not have a return value.
 
 ## PART-4 (OOP's concept)
 

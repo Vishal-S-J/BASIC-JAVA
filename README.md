@@ -294,7 +294,7 @@ EXTENDS
 - To inherit from a class, use the extends keyword.
 * Syntax
 ```
-public class parent_class {
+class parent_class {
     variables and methods
 }
 
@@ -302,6 +302,43 @@ public class child_class extends parent_class {
     inherites the parent class variables and methods.
 }
 ```
+
+FINALIZE
+
+- finalize() is a method of the Object class in Java.
+- The finalize() method is a non-static and protected method of java.lang.Object class.
+- finalize() method in Java is used to release all the resources used by the object before it is deleted/destroyed by the Garbage collector.
+- finalize is not a reserved keyword, it's a method. 
+- Once the clean-up activity is done by the finalize() method, garbage collector immediately destroys the Java object. 
+- Java considers unreferenced objects that are not being used by any program execution or objects that are no longer needed, as garbage.
+    - By anonymous object `new class_name()`
+    - By nulling reference  `Student s = new Student(); s = null;`
+    - By assigning a reference to another object  `Student s1 = new Student();  Student s2 = new Student();  s1 = s2;` this will consider s1 as garbage.
+- Garbage collector in java can be called explicitly using `System.gc()` this method.
+
+IMPLEMENTS
+
+- The implements keyword is used to implement an interface.
+- The interface keyword is used to declare a special type of class that only contains abstract methods.
+- To access the interface methods, the interface must be "implemented" (kinda like inherited) by another class with the implements keyword (instead of extends). 
+- The body of the interface method is provided by the "implement" class.
+
+```
+interface parent_class {
+    variables and methods
+}
+
+public class child_class extends parent_class {
+    inherites the parent class variables and methods.
+}
+```
+
+IMPORT
+INSTANCEOF
+NEW
+PACKAGE
+RETURN
+VOID
 
 ## PART-4 (OOP's concept)
 

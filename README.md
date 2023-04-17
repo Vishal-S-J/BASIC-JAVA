@@ -273,11 +273,35 @@ ___
 
 > [enum, extends, finalize, implements, import, instanceof, new, package, return, void.]
 
-
 ENUM
+- The Enum in Java is a data type which contains a fixed set of constants.
+- It can be used for days of the week (SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, and SATURDAY).
+- It's written in the class
+* Syntax
+```
+public enum enum_name {
+    value1, value2, ..., valuen
+}
+```
 
+EXTENDS
 
+- The extends keyword extends a class (indicates that a class is inherited from another class).
+- In Java, it is possible to inherit attributes and methods from one class to another. 
+- We group the "inheritance concept" into two categories:
+    - subclass (child) - the class that inherits from another class.
+    - superclass (parent) - the class being inherited from.
+- To inherit from a class, use the extends keyword.
+* Syntax
+```
+public class parent_class {
+    variables and methods
+}
 
+public class child_class extends parent_class {
+    inherites the parent class variables and methods.
+}
+```
 
 ## PART-4 (OOP's concept)
 

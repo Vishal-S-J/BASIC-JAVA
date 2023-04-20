@@ -389,8 +389,41 @@ b. Why Encapsulation?
 - Flexible: the programmer can change one part of the code without affecting other parts
 - Increased security of data
 
-2. Inheritance
-3. Polymorphism
-4. Abstraction
+___
+2. INHERITANCE
+___
+a. Inheritance in Java
+- Java, Inheritance is an important pillar of OOP(Object-Oriented Programming). 
+- It is the mechanism in Java by which one class is allowed to inherit the features(fields and methods) of another class.
+- In Java, Inheritance means creating new classes based on existing ones. 
+- A class that inherits from another class can reuse the methods and fields of that class.
+- In addition, you can add new fields and methods to your current class as well.  
+
+b. Why Do We Need Java Inheritance?
+    1. Code Reusability: The code written in the Superclass is common to all subclasses. Child classes can directly use the parent class code.
+    2. Method Overriding: Method Overriding is achievable only through Inheritance. It is one of the ways by which Java achieves Run Time Polymorphism.
+    3. Abstraction: The concept of abstract where we do not have to provide all details is achieved through inheritance. Abstraction only shows the functionality to the user.
+    
+c. Important Terminologies Used in Java Inheritance
+    1. Class: Class is a set of objects which shares common characteristics/ behavior and common properties/ attributes. Class is not a real-world entity. It is just a template or blueprint or prototype from which objects are created.
+    2. Super Class/Parent Class: The class whose features are inherited is known as a superclass(or a base class or a parent class).
+    3. Sub Class/Child Class: The class that inherits the other class is known as a subclass(or a derived class, extended class, or child class). The subclass can add its own fields and methods in addition to the superclass fields and methods.
+    4. Reusability: Inheritance supports the concept of “reusability”, i.e. when we want to create a new class and there is already a class that includes some of the code that we want, we can derive our new class from the existing class. By doing this, we are reusing the fields and methods of the existing class.
+    
+d. How to Use Inheritance in Java?
+- The extends keyword is used for inheritance in Java. Using the extends keyword indicates you are derived from an existing class. In other words, “extends” refers to increased functionality.
+* Syntax
+```
+class derived-class extends base-class  
+{  
+   //methods and fields  
+}  
+```
+e. Inheritance in Java Example
+
+
+
+4. Polymorphism
+5. Abstraction
 
 ## PART-5 (Collections)

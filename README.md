@@ -372,18 +372,19 @@ VOID
 ___
 __1. ENCAPSULATION__
 ___
+1. Encapsulation in Java
 - The meaning of Encapsulation, is to make sure that "sensitive" data is hidden from users.
 - To achieve this, you must:
 - declare class variables/attributes as private and provide public get and set methods to access and update the value of a private variable
 
-a. Get and Set
+2. Get and Set
 - You learned from the previous chapter that private variables can only be accessed within the same class (an outside class has no access to it).
 - However, it is possible to access them if we provide public get and set methods.
 - The get method returns the variable value, and the set method sets the value.
 - Syntax for both is that they start with either get or set, followed by the name of the variable, with the first letter in upper case
 - Further details and Example are in code.
 
-b. Why Encapsulation?
+3. Why Encapsulation?
 - Better control of class attributes and methods
 - Class attributes can be made read-only (if you only use the get method), or write-only (if you only use the set method)
 - Flexible: the programmer can change one part of the code without affecting other parts
@@ -421,7 +422,6 @@ class derived-class extends base-class
 ```
 5. Inheritance in Java Example
 
-
 ___
 __3. Polymorphism__
 ___
@@ -447,6 +447,7 @@ ___
 - This type of polymorphism is achieved by Method Overriding.
 - Method overriding, on the other hand, occurs when a derived class has a definition for one of the member functions of the base class. 
 - That base function is said to be overridden.
+
 ___
 __4. Abstraction__
 ___

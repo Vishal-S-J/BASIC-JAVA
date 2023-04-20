@@ -425,8 +425,45 @@ class derived-class extends base-class
 ___
 __3. Polymorphism__
 ___
+1. Polymorphism in Java
+- The word polymorphism means having many forms. In simple words, we can define polymorphism as the ability of a message to be displayed in more than one form.
+- A person at the same time can have different characteristics. 
+- Like a man at the same time is a father, a husband, an employee.
+- So the same person possesses different behavior in different situations. 
+- In Java polymorphism is mainly divided into two types: 
+    - Compile-time Polymorphism
+    - Runtime Polymorphism
+
+2. Type 1: Compile-time polymorphism
+- It is also known as static polymorphism. 
+- This type of polymorphism is achieved by function overloading (method overloading) or operator overloading (not supported).
+- Method Overloading: 
+   - When there are multiple functions with the same name but different parameters then these functions are said to be overloaded.
+   - Functions can be overloaded by changes in the number of arguments or/and a change in the type of arguments.
+
+3. Type 2: Runtime polymorphism
+- It is also known as Dynamic Method Dispatch.
+- It is a process in which a function call to the overridden method is resolved at Runtime.
+- This type of polymorphism is achieved by Method Overriding.
+- Method overriding, on the other hand, occurs when a derived class has a definition for one of the member functions of the base class. 
+- That base function is said to be overridden.
 ___
 __4. Abstraction__
 ___
+1. Abstraction in java
+- Data abstraction is the process of hiding certain details and showing only essential information to the user.
+- Abstraction can be achieved with either abstract classes or interfaces
+- The abstract keyword is a non-access modifier, used for classes and methods:
+   - Abstract class: is a restricted class that cannot be used to create objects (to access it, it must be inherited from another class)
+   - Abstract method: can only be used in an abstract class, and it does not have a body. The body is provided by the subclass (inherited from).
+- An abstract class can have both abstract and regular methods
+
+2. Details
+- It is not possible to create an object of the Abstract class.
+- To access the abstract class, it must be inherited from another class.
+
+3. Why And When To Use Abstract Classes and Methods?
+- To achieve security - hide certain details and only show the important details of an object.
+- Note: Abstraction can also be achieved with Interfaces.
 
 ## PART-5 (Collections)

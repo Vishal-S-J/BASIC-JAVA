@@ -468,3 +468,18 @@ ___
 - Note: Abstraction can also be achieved with Interfaces.
 
 ## PART-5 (Collections)
+>                  ITERABLE(I)
+>                  
+>                         
+>                 COLLECTION(I)
+>                 
+>                 
+> LIST(I)           QUEUE(I)           SET(I)
+>    ^
+>    |
+> ARRAYLIST(C)    PRIORITYQUEUE(C)     HASHSET(C)
+>                     DEQUEUE(I)
+>                     LINKEDLIST(C)     LINKEDHASHSET(C)
+>                     SORTEDSET(I)
+>                     VECTOR(C)         ARRAYDEQUEUE(C)
+> STACK(C)       TREESET(C)

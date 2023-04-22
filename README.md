@@ -468,6 +468,7 @@ ___
 - Note: Abstraction can also be achieved with Interfaces.
 
 ## PART-5 (Collections)
+>```
 >                  ITERABLE(I)
 >                       |
 >                       | 
@@ -485,3 +486,4 @@ ___
 > |--VECTOR(C)     ARRAYDEQUEUE(C)          |
 >     |                                     |
 >    STACK(C)                             TREESET(C)
+>    ```

@@ -468,6 +468,19 @@ ___
 - Note: Abstraction can also be achieved with Interfaces.
 
 ## PART-5 (Collections)
+1. What is collections
+- The Collection in Java is a framework that provides an architecture to store and manipulate the group of objects.
+- Java Collections can achieve all the operations that we perform on a data such as searching, sorting, insertion, manipulation, and deletion.
+- Java Collection means a single unit of objects. 
+- Java Collection framework provides many interfaces (Set, List, Queue, Deque) and classes (ArrayList, Vector, LinkedList, PriorityQueue, HashSet, LinkedHashSet, TreeSet).
+
+2. What is Collection framework
+- The Collection framework represents a unified architecture for storing and manipulating a group of objects. 
+- It has:
+    - Interfaces and its implementations, i.e., classes
+    - Algorithm
+
+3. Hierarchy of Collection Framewor
 >```
 >                  ITERABLE(I)
 >                       |
@@ -487,3 +500,11 @@ ___
 >     |                                     |
 >    STACK(C)                             TREESET(C)
 >    ```
+
+4. ITERABLE Interface
+- The Iterable interface is the root interface for all the collection classes. The Collection interface extends the Iterable interface and therefore all the subclasses of Collection interface also implement the Iterable interface.
+- It contains only one abstract method. i.e.,`Iterator<T> iterator() `
+- It returns the iterator over the elements of type T.
+
+| Method | Description |
+|:---:|:---|

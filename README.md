@@ -508,3 +508,33 @@ ___
 
 | Method | Description |
 |:---:|:---|
+|public boolean hasNext()|It returns true if the iterator has more elements otherwise it returns false.|
+|public Object next()|It returns the element and moves the cursor pointer to the next element.|
+|public void remove()|It removes the last elements returned by the iterator. It is less used.|
+
+5. COLLECTION Interface
+- The Collection interface is the interface which is implemented by all the classes in the collection framework.
+- It declares the methods that every collection will have.
+- In other words, we can say that the Collection interface builds the foundation on which the collection framework depends.
+
+| Method | Description |
+|:---:|:---|
+|public boolean add(E e)|It is used to insert an element in this collection.|
+|public boolean addAll(Collection<? extends E> c)|It is used to insert the specified collection elements in the invoking collection.|
+|public boolean remove(Object element)|	It is used to delete an element from the collection.|
+|public boolean removeAll(Collection<?> c)|It is used to delete all the elements of the specified collection from the invoking collection.|
+|default boolean removeIf(Predicate<? super E> filter)|It is used to delete all the elements of the collection that satisfy the specified predicate.|
+|public boolean retainAll(Collection<?> c)|It is used to delete all the elements of invoking collection except the specified collection.|
+|public int size()|It returns the total number of elements in the collection.|
+|public void clear()|It removes the total number of elements from the collection.|
+|public boolean contains(Object element)|It is used to search an element.|
+|public boolean containsAll(Collection<?> c)|It is used to search the specified collection in the collection.|
+|public Iterator iterator()|It returns an iterator.|
+|public Object[] toArray()|It converts collection into array.|
+|public <T> T[] toArray(T[] a)|It converts collection into array. Here, the runtime type of the returned array is that of the specified array.|
+|public boolean isEmpty()|It checks if collection is empty.|
+|default Stream<E> parallelStream()|It returns a possibly parallel Stream with the collection as its source.|
+|default Stream<E> stream()|It returns a sequential Stream with the collection as its source.|
+|default Spliterator<E> spliterator()|It generates a Spliterator over the specified elements in the collection.|
+|public boolean equals(Object element)|It matches two collections.|
+|public int hashCode()|It returns the hash code number of the collection.|

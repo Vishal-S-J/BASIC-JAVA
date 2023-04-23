@@ -645,3 +645,43 @@ a. TREESET
 - Like HashSet, TreeSet also contains unique elements.
 - However, the access and retrieval time of TreeSet is quite fast.
 - The elements in TreeSet stored in ascending order.
+
+___
+Java Map Interface
+___
+
+1. MAP Interface
+- A map contains values on the basis of key, i.e. key and value pair.
+- Each key and value pair is known as an entry.
+- A Map contains unique keys.
+- A Map is useful if you have to search, update or delete elements on the basis of a key.
+- A Map doesn't allow duplicate keys, but you can have duplicate values.
+- HashMap and LinkedHashMap allow null keys and values, but TreeMap doesn't allow any null key or value.
+
+2. Java Map Hierarchy
+```
+            Map(I)
+              |
+   -----------|---------
+SortedMap(I)        HashMap(C)
+    |                   |
+    |                   |
+TreeMap(C)          LinkedHashMap(C)
+
+```
+
+3. HashMap
+- Java HashMap class implements the Map interface which allows us to store key and value pair, where keys should be unique.
+- If you try to insert the duplicate key, it will replace the element of the corresponding key.
+- It is easy to perform operations using the key index like updation, deletion, etc.
+- HashMap class is found in the java.util package.
+- HashMap in Java is like the legacy Hashtable class, but it is not synchronized.
+- It allows us to store the null elements as well, but there should be only one null key.
+
+4. LinkedHashMap
+- Java LinkedHashMap class is Hashtable and Linked list implementation of the Map interface, with predictable iteration order.
+- It inherits HashMap class and implements the Map interface.
+
+5. TreeMap class
+- Java TreeMap class is a red-black tree based implementation.
+- It provides an efficient means of storing key-value pairs in sorted order.

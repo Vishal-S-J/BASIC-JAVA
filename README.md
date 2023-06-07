@@ -194,6 +194,7 @@ SUPER
      - super() can be used to invoke immediate parent class constructor.
 - Note: super() is added in each class constructor automatically by compiler if there is no super() or this().
 
+NOTES :: (difference between static and final) :: The static keyword is used to represent the class member. It is basically used with methods and variables to indicate that it is a part of the class, not the object. On the other hand, the final keyword is used to proclaim a constant variable and to bind the user from accessing a method, variable, or class.
 ___
 3. Access modifiers
 ___
